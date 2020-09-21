@@ -1,0 +1,39 @@
+/* Responsive Design Section */
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 801px) {
+  .about-container {
+    flex-direction: row;
+  }
+}
+
+/* Styles Section */
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text,
+.image {
+  margin-bottom: 10px;
+}
+
+.image {
+  padding: 30px;
+}

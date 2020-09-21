@@ -1,0 +1,16 @@
+h4 {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.post {
+  margin-top: 70px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+.post-image {
+  width: 40%;
+  height: 40%;
+  float: right;
+}

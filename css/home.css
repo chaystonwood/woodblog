@@ -1,0 +1,52 @@
+/* Responsive Design Section */
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  .top-posts {
+    flex-direction: column;
+  }
+
+  .post {
+    margin-bottom: 3em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .top-posts {
+    flex-direction: row;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 801px) {
+  .top-posts {
+    flex-direction: row;
+  }
+}
+
+/* Styles Section */
+
+.mission-statement {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  padding: 0em 3em 3em 3em;
+}
+
+.top-posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.post-image {
+  max-width: 17.5em;
+  margin-bottom: 2em;
+}
