@@ -1,0 +1,60 @@
+/* Responsive Design Section */
+
+/* Mobile Styles */
+@media only screen and (max-width: 700px) {
+  .catContent {
+    max-width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .catContent {
+    max-width: 700px;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1001px) {
+  .catContent {
+    max-width: 1000px;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+/* Styles Section */
+
+.instructions {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px;
+}
+
+.buttonContainer {
+  margin: auto;
+  margin-top: 50px;
+  width: 150px;
+}
+
+.catContent {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+}
+
+#catPhoto {
+  max-width: 500px;
+}
+
+#catFact {
+  padding: 20px;
+}
+
+
